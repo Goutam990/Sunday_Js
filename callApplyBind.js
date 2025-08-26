@@ -1,5 +1,5 @@
 // call()
-// Build-in method h. allows me to run a function immediately. allow to use "this" value
+// Build-in method h. 
 // nd set arguments too.
 /*
 const person = {
@@ -14,6 +14,8 @@ person.greetings.call(person);
 // Note : - Arrow fucntion --> "this" value refers to the surronding's "this" value.
 // surronding "this" value means -> undefined(in strict mode)
 //  window (in browser)
+
+//  call() method lets you use a method from one object on a different object. It changes what the "this" keyword refers too.
 
 // ==============Basic Example======================================
 /*
