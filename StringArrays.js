@@ -116,6 +116,15 @@ arr6.splice(2,1);
 console.log(arr6);  //[ 1, 2, 4, 5, 6 ]
 
 
+// Splice() method ka use karke m array m elements add bhi kar sakta hu.
+let arr7 = ["Potato", "Tomato" , "Chilly", "Garlic"];
+
+// now agr mujhe Chilly ke bad ladyfinger insert krna h aur kuch remove bhi ni krna
+// then
+arr7.splice(3,0,"ladyfinger");   // 4th block new element added , without deleting any other element
+console.log(arr7);
+
+
 
 
 
